@@ -1,0 +1,13 @@
+# Environment files - may contain secrets
+docker/.env
+docker/.env.backup
+
+# Terraform local files
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+terraform/crash.log
+
+# Logs
+*.log
